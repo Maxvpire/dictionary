@@ -1,0 +1,29 @@
+name: flutter_dictionary
+description: A simple English dictionary using dictionaryapi.dev
+publish_to: "none"
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  connectivity_plus: ^6.0.5
+  audioplayers: ^6.0.0
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/book.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: assets/icon/book.png
+  adaptive_icon_background: "#FFFFFF"
